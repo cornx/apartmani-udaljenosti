@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ikonice sidebar</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="slika">
+        <table class="udaljenosti">
+            <tr>
+                <td class="icon icon-plaza" alt="Plaza" title="Plaža"></td>
+                <!--<td class="icon icon-mjenjacnica" alt="Mjenjačnica" title="Mjenjačnica"> </td>-->
+                <td id="euro">€</td>
+                <td class="icon icon-trznica" alt="Tržnica" title="Tržnica"> </td>
+                <td class="icon icon-trgovina" alt="Trgovina" title="Trgovina"> </td>
+                <td class="icon icon-centar" alt="Centar" title="Centar"> </td>
+            </tr>
+            <tr class="km">
+                <td id="plaza">100 m</td>
+                <td id="mjenjacnica">8 km</td>
+                <td id="trznica">8 km</td>
+                <td id="trgovina">3,6 km</td>
+                <td id="centar">8 km</td>
+            </tr>
+        </table>
+    </div>
+    <h2>Upiši udaljenosti</h2>
+
+    <table class="udaljenosti">
+        <tr>
+            <td class="icon icon-plaza" alt="Plaza" title="Plaža"></td>
+            <td id="euro">€</td>
+            <td class="icon icon-trznica" alt="Tržnica" title="Tržnica"> </td>
+            <td class="icon icon-trgovina" alt="Trgovina" title="Trgovina"> </td>
+            <td class="icon icon-centar" alt="Centar" title="Centar"> </td>
+        </tr>
+        <tr>
+            <input type="text" id="plaza-input" placeholder="100 m">
+            <input type="text" id="mjenjacnica-input" placeholder="1 km">
+            <input type="text" id="trznica-input" placeholder="1 km">
+            <input type="text" id="trgovina-input" placeholder="1 km">
+            <input type="text" id="centar-input" placeholder="1 km">
+        </tr>
+    </table>
+    <button id="upisi">Upiši udaljenosti</button>
+    <button id="uslikaj">Uslikaj</button>
+    <h4 class="poruka">Ispod će se pojavit slika.<br>Desnim klikom je spremi.</h4>
+    
+    
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/html2canvas.js"></script>
+</body>
+
+</html>
