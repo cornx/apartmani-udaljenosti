@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+       <h3>Za micanje ikonice, klikni na nju</h3>
     <div class="slika">
         <table class="udaljenosti">
             <tr>
-                <td class="icon icon-plaza" alt="Plaza" title="Plaža"></td>
+                <td class="icon icon-plaza" alt="Plaza" title="Plaža" onclick="sakrij(plaza);"></td>
                 <!--<td class="icon icon-mjenjacnica" alt="Mjenjačnica" title="Mjenjačnica"> </td>-->
-                <td id="euro">€</td>
-                <td class="icon icon-trznica" alt="Tržnica" title="Tržnica"> </td>
-                <td class="icon icon-trgovina" alt="Trgovina" title="Trgovina"> </td>
-                <td class="icon icon-centar" alt="Centar" title="Centar"> </td>
+                <td id="euro" onclick="sakrij(mjenjacnica);">€</td>
+                <td class="icon icon-trznica" alt="Tržnica" title="Tržnica" onclick="sakrij(trznica);"> </td>
+                <td class="icon icon-trgovina" alt="Trgovina" title="Trgovina" onclick="sakrij(trgovina);"> </td>
+                <td class="icon icon-centar" alt="Centar" title="Centar" onclick="sakrij(centar);"> </td>
             </tr>
             <tr class="km">
                 <td id="plaza">100 m</td>
@@ -28,7 +29,7 @@
     </div>
     <h2>Upiši udaljenosti</h2>
 
-    <table class="udaljenosti">
+    <table>
         <tr>
             <td class="icon icon-plaza" alt="Plaza" title="Plaža"></td>
             <td id="euro">€</td>
