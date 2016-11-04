@@ -1,10 +1,14 @@
 var plazaInput = document.querySelector("#plaza-input"),
+    sladoledInput = document.querySelector("#sladoled-input"),
+    sokInput = document.querySelector("#sok-input"),
     mjenjacnicaInput = document.querySelector("#mjenjacnica-input"),
     trznicaInput = document.querySelector("#trznica-input"),
     trgovinaInput = document.querySelector("#trgovina-input"),
     centarInput = document.querySelector("#centar-input"),
     // polja za upis
     plaza = document.querySelector("#plaza"),
+    sol = document.querySelector("#sol"),
+    sladoled = document.querySelector("#sladoled"),
     mjenjacnica = document.querySelector("#mjenjacnica"),
     trznica = document.querySelector("#trznica"),
     trgovina = document.querySelector("#trgovina"),
@@ -15,6 +19,8 @@ var plazaInput = document.querySelector("#plaza-input"),
 
 upisi.addEventListener("click", function() {
     plaza.textContent = plazaInput.value.trim();
+    sok.textContent = sokInput.value.trim();
+    sladoled.textContent = sladoledInput.value.trim();
     mjenjacnica.textContent = mjenjacnicaInput.value.trim();
     trznica.textContent = trznicaInput.value.trim();
     trgovina.textContent = trgovinaInput.value.trim();

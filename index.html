@@ -6,8 +6,9 @@
     <title>Ikonice sidebar</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-       <h3>Za micanje ikonice, klikni na nju</h3>
+    <h3>Za micanje ikonice, klikni na nju</h3>
     <div class="slika">
         <table class="udaljenosti">
             <tr class="prvi-red">
@@ -34,29 +35,41 @@
 
     <table>
         <tr>
-            <td class="icon icon-plaza" alt="Plaža" title="Plaža"></td>
-            <td class="icon icon-sok" alt="Sok" title="Sok"></td>
-            <td class="icon icon-sladoled" alt="Sladoled" title="Sladoled"></td>
-            <td id="euro">€</td>
-            <td class="icon icon-trznica" alt="Tržnica" title="Tržnica"> </td>
-            <td class="icon icon-trgovina" alt="Trgovina" title="Trgovina"> </td>
-            <td class="icon icon-centar" alt="Centar" title="Centar"> </td>
-        </tr>
-        <tr>
-            <input type="text" id="plaza-input" placeholder="10 m">
-            <input type="text" id="plaza-sok" placeholder="10 m">
-            <input type="text" id="plaza-sladoled" placeholder="10 m">
-            <input type="text" id="mjenjacnica-input" placeholder="1 km">
-            <input type="text" id="trznica-input" placeholder="1 km">
-            <input type="text" id="trgovina-input" placeholder="1 km">
-            <input type="text" id="centar-input" placeholder="1 km">
+            <td>
+                <div class="icon icon-plaza" alt="Plaža" title="Plaža"></div>
+                <input type="text" id="plaza-input" placeholder="10 m">
+            </td>
+            <td>
+                <div class="icon icon-sok" alt="Sok" title="Sok"></div>
+                <input type="text" id="sok-input" placeholder="10 m">
+            </td>
+            <td>
+                <div class="icon icon-sladoled" alt="Sladoled" title="Sladoled"></div>
+                <input type="text" id="sladoled-input" placeholder="10 m">
+            </td>
+            <td>
+                <div id="euro">€</div>
+                <input type="text" id="mjenjacnica-input" placeholder="1 km">
+            </td>
+            <td>
+                <div class="icon icon-trznica" alt="Tržnica" title="Tržnica"> </div>
+                <input type="text" id="trznica-input" placeholder="1 km">
+            </td>
+            <td>
+                <div class="icon icon-trgovina" alt="Trgovina" title="Trgovina"> </div>
+                <input type="text" id="trgovina-input" placeholder="1 km">
+            </td>
+            <td>
+                <div class="icon icon-centar" alt="Centar" title="Centar"> </div>
+                <input type="text" id="centar-input" placeholder="1 km">
+            </td>
         </tr>
     </table>
     <button id="upisi">Upiši udaljenosti</button>
     <button id="uslikaj">Uslikaj</button>
-    <h4 class="poruka">Ispod će se pojavit slika.<br>Desnim klikom je spremi.</h4>
-    
-    
+    <h4 class="poruka">Ispod će se pojavit slika. Desnim klikom je spremi.</h4>
+
+
     <script src="js/script.js" type="text/javascript"></script>
     <script src="js/html2canvas.js"></script>
 </body>
