@@ -34,26 +34,23 @@
 }
 
 .icon-centar:before {
-    content: "\61";
+  content: "\61";
 }
-
-.icon-mjenjacnica:before {
-    content: "\62";
-}
-
 .icon-plaza:before {
-    content: "\63";
+  content: "\63";
 }
-
 .icon-trgovina:before {
-    content: "\64";
+  content: "\64";
 }
-
 .icon-trznica:before {
-    content: "\65";
+  content: "\65";
 }
-
-
+.icon-sok:before {
+  content: "\69";
+}
+.icon-sladoled:before {
+  content: "\6e";
+}
 /*================= moj stil ===================*/
 
 * {
@@ -67,13 +64,13 @@ button {
 }
 
 body {
-    width: 50%;
-    padding: 0 25%;
+    width: 80%;
+    padding: 0 10%;
 }
 
 input {
-    width: 40px;
-    margin-left: 5px;
+    width: 75px;
+    margin:0 5px;
 }
 
 .udaljenosti td {
@@ -83,40 +80,39 @@ input {
 }
 
 table {
-    width: 250px;
+    width: 550px;
 }
 
 .icon {
-    font-size: 34px;
+    font-size: 68px;
     text-align: center;
     margin: 0 20px;
     margin-bottom: -20px;
 }
 
 .icon-plaza {
-    font-size: 40px
+    font-size: 80px
 }
 
 .icon-centar {
-    font-size: 35px
+    font-size: 75px
 }
 
 .km {
-    font-size: 14px;
+    font-size: 24px;
     text-align: left;
     padding: 0 10px;
+}
+#euro {
+    font-size: 80px;
+    font-weight: 400;
+    padding:0px 10px;
     margin-top: -20px
 }
 
-#euro {
-    font-size: 40px;
-    font-weight: 400;
-    padding-bottom: 10px;
-}
-
 .slika {
-    padding: 20px;
-    width: 250px;
+    padding: 20px 25px 0;
+    width: 550px;
     background: #fff;
 }
 

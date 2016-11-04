@@ -21,11 +21,13 @@ upisi.addEventListener("click", function() {
     centar.textContent = centarInput.value.trim();
 });
 
+/*
 var iconPlaza = document.querySelector(".icon-plaza"),
     iconMjenjacnica = document.querySelector(".icon-mjenjacnica"),
     iconTrznica = document.querySelector(".icon-trznica"),
     iconTgovina = document.querySelector(".icon-trgovina"),
     iconcentar = document.querySelector(".icon-Centar");
+*/
 
 
 // skrivanje pojedine ikonice kad se klikne na nju

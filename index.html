@@ -10,16 +10,19 @@
        <h3>Za micanje ikonice, klikni na nju</h3>
     <div class="slika">
         <table class="udaljenosti">
-            <tr>
-                <td class="icon icon-plaza" alt="Plaza" title="Plaža" onclick="sakrij(plaza);"></td>
-                <!--<td class="icon icon-mjenjacnica" alt="Mjenjačnica" title="Mjenjačnica"> </td>-->
+            <tr class="prvi-red">
+                <td class="icon icon-plaza" alt="Plaža" title="Plaža" onclick="sakrij(plaza);"></td>
+                <td class="icon icon-sok" alt="Sok" title="Sok" onclick="sakrij(sok);"></td>
+                <td class="icon icon-sladoled" alt="Sladoled" title="Sladoled" onclick="sakrij(sladoled);"></td>
                 <td id="euro" onclick="sakrij(mjenjacnica);">€</td>
                 <td class="icon icon-trznica" alt="Tržnica" title="Tržnica" onclick="sakrij(trznica);"> </td>
                 <td class="icon icon-trgovina" alt="Trgovina" title="Trgovina" onclick="sakrij(trgovina);"> </td>
                 <td class="icon icon-centar" alt="Centar" title="Centar" onclick="sakrij(centar);"> </td>
             </tr>
             <tr class="km">
-                <td id="plaza">100 m</td>
+                <td id="plaza">10 m</td>
+                <td id="sok">10 m</td>
+                <td id="sladoled">10 m</td>
                 <td id="mjenjacnica">8 km</td>
                 <td id="trznica">8 km</td>
                 <td id="trgovina">3,6 km</td>
@@ -31,14 +34,18 @@
 
     <table>
         <tr>
-            <td class="icon icon-plaza" alt="Plaza" title="Plaža"></td>
+            <td class="icon icon-plaza" alt="Plaža" title="Plaža"></td>
+            <td class="icon icon-sok" alt="Sok" title="Sok"></td>
+            <td class="icon icon-sladoled" alt="Sladoled" title="Sladoled"></td>
             <td id="euro">€</td>
             <td class="icon icon-trznica" alt="Tržnica" title="Tržnica"> </td>
             <td class="icon icon-trgovina" alt="Trgovina" title="Trgovina"> </td>
             <td class="icon icon-centar" alt="Centar" title="Centar"> </td>
         </tr>
         <tr>
-            <input type="text" id="plaza-input" placeholder="100 m">
+            <input type="text" id="plaza-input" placeholder="10 m">
+            <input type="text" id="plaza-sok" placeholder="10 m">
+            <input type="text" id="plaza-sladoled" placeholder="10 m">
             <input type="text" id="mjenjacnica-input" placeholder="1 km">
             <input type="text" id="trznica-input" placeholder="1 km">
             <input type="text" id="trgovina-input" placeholder="1 km">
